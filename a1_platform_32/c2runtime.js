@@ -17711,8 +17711,8 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
 	cr.behaviors.Platform,
 	cr.behaviors.solid,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlappingOffset,
